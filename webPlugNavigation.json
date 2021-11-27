@@ -40,18 +40,8 @@
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
         "mainCss": "ul.stui-content__playlist clearfix",//缩短抓取区域
-        "mainIndex": 1,//第几个
-        "regIndexList": [//无视
-      0
-    ],
-    "regItemIndex": 0,//无视
-    "regItemStr": "",//无视
-    "regSplitList": [//无视
-      ""
-    ],
-    "regStrList": [//无视
-      ""
-    ]
+        "mainIndex": 0
+
   }, 
   "nav": {
     "isKWInUrl": false,//无视
