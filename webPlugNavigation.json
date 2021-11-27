@@ -31,7 +31,7 @@
       "episodes": {
         "mainCss": "div.stui-pannel.stui-pannel-bg.clearfix",//缩短抓取区域
         "mainIndex": 0, //第几个
-        "listCss": "ul > li",//抓取列表
+        "listCss": "li",//抓取列表
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
         "hasUrlPrefix": false,//是否有前缀
