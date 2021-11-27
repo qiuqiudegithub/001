@@ -5,7 +5,7 @@
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://www.zhenbuka3.com/",
+      "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
       "webPlus": {
@@ -29,41 +29,52 @@
     },
     "html": {
       "episodes": {
-        "mainCss": "div.stui-pannel.stui-pannel-bg.clearfix",//缩短抓取区域
-        "mainIndex": 0, //第几个
-        "listCss": "li",//抓取列表
+        "mainCss": "ul.stui-content__playlist.clearfix",//缩短抓取区域, 内容所在区域
+        "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
+        "listCss": "ul > li",//区域内链接列表
+        
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
         "hasUrlPrefix": false,//是否有前缀
         "isListItemAttr": true,//是否取标签属性值
         "listItemAttr": "href",//抓取属性
+        
         "isMultiList": false,//无视
         "listCssMulti": ""//无视
   }, 
   "nav": {
-    "isKWInUrl": false,//无视
-    "isWebPlay": false,//无视
-    "descAttr": "",//无视
+    "mainCss": "ul.stui-vodlist.clearfix",//影视列表
+    "mainListIndex": 0,//取第几个列表
+    "searchListCss": "li",//影视列表个影视
+    
+    "urlCss": "a",//影视详情标签名, 地址所在标签
+    "urlIndex": 0, //取标签的第几个 一般都是0
+    "isUrlAttr": true,//是否通过标签属性获取地址
+    "urlAttr": "href",//取影视详情url值, 获取值的属性名称
+    "hasUrlPrefix": false,//url链接是否有前缀, false没有则会自动拼接
+    
+    "nameCss": "a",//名称所在标签
+    "nameIndex": 0,//标签的第几个，一般0
+    "isNameAttr": true,//是否通过标签属性获取名称
+    "nameAttr": "title",//取名称属性值
+    
+    "imgCss": "a",//封面所在标签
+    "imgIndex": 0,//图片再第几个标签里，一般为0
+    "isImgAttr": true,//是否通过标签属性获取封面
+    "imgAttr": "data-original",//获取图的属性值（图片地址）
+    
+    "isDescAttr": false,//是否通过标签属性获取描述 这里是false
+    "descAttr": "",//因为isDessAttr为false，因此这里无需赋值，直接取当前标签内容
     "descCss": "span.pic-text.text-right",//描述标签
-    "descIndex": 0,//第几个描述标签
-    "hasUrlPrefix": false,//url链接是否有前缀
+    "descIndex": 0,//标签第几个,一般是0
+       
     "hasImgUrlPrefix": true,//图片地址是否有前缀
     "imgAttr": "data-original",//去属性值（图片地址）
     "imgCss": "a",//图片在哪个标签里面
     "imgIndex": 0,//图片再第几个标签里
     "isDescAttr": false,//描述是否取属性值
     "isImgAttr": true,//取图片属性值
-    "isNameAttr": true,//去名称属性值
-    "isUrlAttr": true,//取详情地址属性值
-    "mainCss": "ul.stui-vodlist.clearfix",//影视列表
-    "mainListIndex": 0,//取第几个列表
-    "nameAttr": "title",//取名称属性值
-    "nameCss": "a",//名称标签
-    "nameIndex": 0,//取第几个
-    "searchListCss": "li",//影视列表个影视
-    "urlAttr": "href",//取影视详情url值
-    "urlCss": "a",//影视详情标签名
-    "urlIndex": 0//取第几个值
+    "isNameAttr": true//去名称属性值
   },
       "search": {
         "isKWInUrl": false,
