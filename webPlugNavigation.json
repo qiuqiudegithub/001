@@ -1,17 +1,16 @@
 {
   "data": [
     {
-      "name": "思古",
+      "name": "真不卡",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://www.siguyy.com",
+      "ads": "id=layui-layer1, id=hth616, id=ue, id=HMrichA",
+      "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://www.siguyy.com/search/-------------.html?wd={kw}&submit=",
-        "nav_url": "https://www.siguyy.com/type/navCate-navPage.html",
-        "web_name": "思古",
+        "nav_url": "https://www.zhenbuka3.com/vodshow/navCate-%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86-------navPage---/",
+        "web_name": "真不卡",
         "navHtml": {
       "name": [
         "电影",
@@ -20,22 +19,22 @@
         "动漫"
       ],
       "cate": [
-        "m",
-        "tv",
-        "va",
-        "ct"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "page": "1"
     },
     "html": {
       "episodes": {
-        "mainCss": "ul.myui-content__list.sort-list.clearfix",//缩短抓取区域, 内容所在区域
+        "mainCss": "ul.stui-content__playlist.clearfix",//缩短抓取区域, 内容所在区域
         "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
         "listCss": "ul > li",//区域内链接列表
         
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
-        "hasUrlPrefix": false,//是否有前缀, 无，自动加
+        "hasUrlPrefix": false,//是否有前缀
         "isListItemAttr": true,//是否取标签属性值
         "listItemAttr": "href",//抓取属性
         
@@ -43,7 +42,7 @@
         "listCssMulti": ""//无视
   }, 
   "nav": {
-    "mainCss": "ul.myui-vodlist.clearfix",//影视列表
+    "mainCss": "ul.stui-vodlist.clearfix",//影视列表
     "mainListIndex": 0,//取第几个列表
     "searchListCss": "li",//影视列表个影视
     
@@ -58,7 +57,7 @@
     "isNameAttr": true,//是否通过标签属性获取名称
     "nameAttr": "title",//取名称属性值
     
-    "imgCss": "a",//封面所在标签, 图片在哪个标签里面
+    "imgCss": "a",//封面所在标签
     "imgIndex": 0,//图片再第几个标签里，一般为0
     "isImgAttr": true,//是否通过标签属性获取封面
     "hasImgUrlPrefix": true,//图片地址是否有前缀
