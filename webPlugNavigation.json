@@ -11,36 +11,34 @@
       "webPlus": {
         "search_url": "https://www.zhenbuka3.com/vodsearch/-------------/?wd={kw}",
         "nav_url": "https://www.zhenbuka3.com/vodshow/navCate-%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86-------navPage---/",
-    "web_name": "真不卡",
-    "navHtml": {
+        "web_name": "真不卡",
+        "navHtml": {
       "name": [
         "电影",
         "电视剧",
         "综艺",
-        "动漫",
+        "动漫"
       ],
       "cate": [
         "1",
         "2",
         "3",
-        "4",
+        "4"
       ],
       "page": "1"
     },
     "html": {
       "episodes": {
-        "hasUrlPrefix": false,//是否有前缀
-        "isListItemAttr": true,
-        "isReg": false,//无视
-        "isRegNeedDecoder": false//无视,
-        "listCss":"ul>li",//抓取列表
-        "isMultiList": false,//无视
-        "listCssMulti": "",//无视
-        "listItemAttr": "href",//抓取属性
+        "mainCss": "div.stui-pannel.stui-pannel-bg.clearfix",//缩短抓取区域
+        "mainIndex": 0, //第几个
+        "listCss": "ul > li",//抓取列表
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
-        "mainCss": "ul.stui-content__playlist clearfix",//缩短抓取区域
-        "mainIndex": 0
+        "hasUrlPrefix": false,//是否有前缀
+        "isListItemAttr": true,//是否取标签属性值
+        "listItemAttr": "href",//抓取属性
+        "isMultiList": false,//无视
+        "listCssMulti": ""//无视
   }, 
   "nav": {
     "isKWInUrl": false,//无视
@@ -57,7 +55,7 @@
     "isImgAttr": true,//取图片属性值
     "isNameAttr": true,//去名称属性值
     "isUrlAttr": true,//取详情地址属性值
-    "mainCss": "div.stui-pannel_bd",//影视列表
+    "mainCss": "ul.stui-vodlist.clearfix",//影视列表
     "mainListIndex": 0,//取第几个列表
     "nameAttr": "title",//取名称属性值
     "nameCss": "a",//名称标签
