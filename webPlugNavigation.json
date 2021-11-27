@@ -33,7 +33,7 @@
         "isListItemAttr": true,
         "isReg": false,//无视
         "isRegNeedDecoder": false//无视,
-        "listCss": "ul > li",//抓取列表
+        "listCss": "li",//抓取列表
         "isMultiList": false,//无视
         "listCssMulti": "",//无视
         "listItemAttr": "href",//抓取属性
