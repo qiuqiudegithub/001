@@ -4,7 +4,7 @@
       "name": "真不卡",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
-      "ads": "id=layui-layer1, id=hth616, id=ue, id=HMrichA",
+      "ads": "id=layui-layer-shade1, id=layui-layer1, id=hth616, id=ue, id=HMrichA",
       "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
