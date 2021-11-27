@@ -33,14 +33,14 @@
         "isListItemAttr": true,
         "isReg": false,//无视
         "isRegNeedDecoder": false//无视,
-        "listCss":"li",//抓取列表
+        "listCss":"ul>li",//抓取列表
         "isMultiList": false,//无视
         "listCssMulti": "",//无视
         "listItemAttr": "href",//抓取属性
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
         "mainCss": "ul.stui-content__playlist clearfix",//缩短抓取区域
-        "mainIndex": 1
+        "mainIndex": 0
   }, 
   "nav": {
     "isKWInUrl": false,//无视
