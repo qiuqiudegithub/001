@@ -2,10 +2,10 @@
   "data": [
     {
       "name": "真不卡",
-      "pic": "http://pic.5577.com/up/2020-1/15782723327258604.jpg",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg,
       "type": "webPlug",
-      "ads": "id=layui-layer-shade1, id=hth616, id=ue, id=HMrichA, id=HMRichBox",
-      "webUrl": "https://www.zhenbuka3.com/",
+      "ads": "id=hth616, id=ue, id=HMrichA, id=HMRichBox",
+      "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
       "webPlus": {
