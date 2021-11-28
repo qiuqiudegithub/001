@@ -55,7 +55,7 @@
         ]
   }, 
   "nav": {
-    "mainCss": "div.myui-panel_bd",//影视列表
+    "mainCss": "div.myui-panel.active.myui-panel-bg.clearfix",//影视列表
     "mainListIndex": 0,//取第几个列表,,定位唯一，写0
     "searchListCss": "li",//影视列表个影视
     "urlCss": "a",//影视详情标签名, 地址所在标签
