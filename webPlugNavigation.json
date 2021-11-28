@@ -38,8 +38,8 @@
         "hasUrlPrefix": false,//是否有前缀
         "isListItemAttr": true,//是否取标签属性值
         "listItemAttr": "href",//抓取属性
-        "isMultiList": true,//无视
-        "listCssMulti": "div.playlist1 > li, div.playlist2 > li, div.playlist3 > li, div.playlist4 > li, div.playlist5 > li", //无视
+        "isMultiList": false ,//无视
+        "listCssMulti": "", //无视
         "isReg": false,
         "isRegNeedDecoder": false,
         "regIndexList": [
