@@ -108,18 +108,18 @@
     }
   }
 },
-    {
-      "name": "TVB",
+        {
+      "name": "闪电",
       "pic": "http://www.5577.com/up/2020-1/15782723308776503.jpg",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "http://www.tvyb10.com",
+      "webUrl": "https://www.ak1080.me",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "http://www.tvyb10.com/vod/search.html?wd={kw}&submit=",
-        "nav_url": "https://www.tvyb10.com/vod/show/id/navCate/page/navPage.html",
-        "web_name": "TVB",
+        "search_url": "https://www.ak1080.me/vodsearch/{kw}-------------.html",
+        "nav_url": "https://www.ak1080.me/vodshow/navCate--hits------navPage---.html",
+        "web_name": "闪电",
     "navHtml": {
       "name": [
         "电影",
@@ -138,7 +138,7 @@
     "cateHtml": {},
     "html": {
       "episodes": {
-        "mainCss": "div.myui-panel_bd.clearfix",//缩短抓取区域, 内容所在区域
+        "mainCss": "ul.mo-movs-item.mo-sort-boxs.mo-cols-rows.mo-pamd-5px.mo-cols-show",//缩短抓取区域, 内容所在区域
         "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
         "listCss": "ul > li",//区域内链接列表
         "listItemCss": "a",//抓取标签
@@ -163,7 +163,7 @@
         ]
   }, 
   "nav": {
-    "mainCss": "div.myui-panel_bd",//影视列表
+    "mainCss": "ul.mo-cols-rows",//影视列表
     "mainListIndex": 0,//取第几个列表,,定位唯一，写0
     "searchListCss": "li",//影视列表个影视
     "urlCss": "a",//影视详情标签名, 地址所在标签
@@ -172,7 +172,7 @@
     "urlAttr": "href",//取影视详情url值, 获取值的属性名称
     "hasUrlPrefix": false,//url链接是否有前缀, false没有则会自动拼接
     "nameCss": "a",//名称所在标签
-    "nameIndex": 0,//标签的第几个，一般0
+    "nameIndex": 1,//标签的第几个，一般0
     "isNameAttr": true,//是否通过标签属性获取名称
     "nameAttr": "title",//取名称属性值
     "imgCss": "a",//封面所在标签
@@ -182,7 +182,7 @@
     "imgAttr": "data-original",//获取图的属性值（图片地址）
     "isDescAttr": false,//是否通过标签属性获取描述 这里是false
     "descAttr": "",//因为isDessAttr为false，因此这里无需赋值，直接取当前标签内容
-    "descCss": "span.tag",//描述标签
+    "descCss": "span.mo-situ-rema.mo-part-ramp.mo-fsxs-12px.mo-text-white.mo-coxs-center",//描述标签
     "descIndex": 0, //标签第几个,一般是0
     "isKWInUrl": false,
     "isWebPlay": false
@@ -215,7 +215,7 @@
       "video": {}
     }
   }
-},
+}, 
     {
       "name": "1090",
       "pic": "http://www.5577.com/up/2020-1/15782723308776503.jpg",
@@ -323,6 +323,7 @@
       "video": {}
     }
   }
-}
+},
+    
 ]
 }
