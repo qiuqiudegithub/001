@@ -215,6 +215,60 @@
       "video": {}
     }
   }
-}
+},
+        {
+      "name": "闪电",
+      "pic": "http://www.5577.com/up/2020-1/15782723308776503.jpg",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://www.ak1080.me",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.ak1080.me/vodsearch/{kw}-------------.html",、
+        "nav_url": "https://www.ak1080.me/vodshow/navCate--hits------navPage---.html",
+        "web_name": "闪电",
+    "navHtml": {
+      "name": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ],
+      "cate": [
+        "1",
+        "13",
+        "3",
+        "4"
+      ],
+      "page": "1"
+    },
+    "cateHtml": {},
+    "html": {
+      "episodes": {
+        "mainCss": "ul.mo-movs-item.mo-sort-boxs.mo-cols-rows.mo-pamd-5px.mo-cols-show",//缩短抓取区域, 内容所在区域
+        "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
+        "listCss": "ul > li",//区域内链接列表
+        "listItemCss": "a",//抓取标签
+        "listItemIndex": 0,//抓取哪个标签
+        "hasUrlPrefix": false,//是否有前缀
+        "isListItemAttr": true,//是否取标签属性值
+        "listItemAttr": "href",//抓取属性
+        "isMultiList": false ,//无视
+        "listCssMulti": "", //无视
+        "isReg": false,
+        "isRegNeedDecoder": false,
+        "regIndexList": [
+          0
+        ],
+        "regItemIndex": 0,
+        "regItemStr": "",
+        "regSplitList": [
+          ""
+        ],
+        "regStrList": [
+          ""
+        ]
+  }
 ]
 }
