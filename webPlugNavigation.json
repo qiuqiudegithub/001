@@ -4,7 +4,7 @@
       "name": "真不卡",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
-      "ads": "id=hth616, id=ue, id=HMrichA, id=HMRichBox",
+      "ads": "",
       "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
@@ -12,13 +12,6 @@
         "search_url": "https://www.zhenbuka3.com/vodsearch/-------------/?wd={kw}",
         "nav_url": "https://www.zhenbuka3.com/vodshow/navCate-%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86-------navPage---/",
         "web_name": "真不卡",
-         "kw": "wd",
-         "params": [
-      {
-        "key": "key",
-        "value": "value"
-      }
-    ],
     "navHtml": {
       "name": [
         "电影",
@@ -82,7 +75,7 @@
     "isDescAttr": false,//是否通过标签属性获取描述 这里是false
     "descAttr": "",//因为isDessAttr为false，因此这里无需赋值，直接取当前标签内容
     "descCss": "span.pic-text.text-right",//描述标签
-    "descIndex": 0，//标签第几个,一般是0
+    "descIndex": 0, //标签第几个,一般是0
     "isKWInUrl": false,
     "isWebPlay": false
   },
