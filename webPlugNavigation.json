@@ -173,8 +173,8 @@
     "hasUrlPrefix": false,//url链接是否有前缀, false没有则会自动拼接
     "nameCss": "a",//名称所在标签
     "nameIndex": 0,//标签的第几个，一般0
-    "isNameAttr": false,//是否通过标签属性获取名称
-    "nameAttr": "",//取名称属性值
+    "isNameAttr": true,//是否通过标签属性获取名称
+    "nameAttr": "herf",//取名称属性值
     "imgCss": "a",//封面所在标签
     "imgIndex": 0,//图片再第几个标签里，一般为0
     "isImgAttr": true,//是否通过标签属性获取封面
