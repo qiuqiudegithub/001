@@ -172,7 +172,7 @@
     "urlAttr": "href",//取影视详情url值, 获取值的属性名称
     "hasUrlPrefix": false,//url链接是否有前缀, false没有则会自动拼接
     "nameCss": "a",//名称所在标签
-    "nameIndex": 2,//标签的第几个，一般0
+    "nameIndex": 0,//标签的第几个，一般0
     "isNameAttr": false,//是否通过标签属性获取名称
     "nameAttr": "",//取名称属性值
     "imgCss": "a",//封面所在标签
