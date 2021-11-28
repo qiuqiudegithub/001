@@ -107,6 +107,114 @@
       "video": {}
     }
   }
+},
+        {
+      "name": "TVB",
+      "pic": "http://www.5577.com/up/2020-1/15782723308776503.jpg",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "http://www.tvyb10.com/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "http://www.tvyb10.com/vod/search.html?wd={kw}&submit=",
+        "nav_url": "https://www.tvyb10.com/vod/show/id/navCate/page/navPage.html",
+        "web_name": "TVB",
+    "navHtml": {
+      "name": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ],
+      "cate": [
+        "1",
+        "13",
+        "3",
+        "4"
+      ],
+      "page": "1"
+    },
+    "cateHtml": {},
+    "html": {
+      "episodes": {
+        "mainCss": "div.myui-panel_bd.clearfix",//缩短抓取区域, 内容所在区域
+        "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
+        "listCss": "ul > li",//区域内链接列表
+        "listItemCss": "a",//抓取标签
+        "listItemIndex": 0,//抓取哪个标签
+        "hasUrlPrefix": false,//是否有前缀
+        "isListItemAttr": true,//是否取标签属性值
+        "listItemAttr": "href",//抓取属性
+        "isMultiList": false ,//无视
+        "listCssMulti": "", //无视
+        "isReg": false,
+        "isRegNeedDecoder": false,
+        "regIndexList": [
+          0
+        ],
+        "regItemIndex": 0,
+        "regItemStr": "",
+        "regSplitList": [
+          ""
+        ],
+        "regStrList": [
+          ""
+        ]
+  }, 
+  "nav": {
+    "mainCss": "div.myui-panel_bd",//影视列表
+    "mainListIndex": 0,//取第几个列表,,定位唯一，写0
+    "searchListCss": "li",//影视列表个影视
+    "urlCss": "a",//影视详情标签名, 地址所在标签
+    "urlIndex": 0, //取标签的第几个 一般都是0
+    "isUrlAttr": true,//是否通过标签属性获取地址
+    "urlAttr": "href",//取影视详情url值, 获取值的属性名称
+    "hasUrlPrefix": false,//url链接是否有前缀, false没有则会自动拼接
+    "nameCss": "a",//名称所在标签
+    "nameIndex": 0,//标签的第几个，一般0
+    "isNameAttr": true,//是否通过标签属性获取名称
+    "nameAttr": "title",//取名称属性值
+    "imgCss": "a",//封面所在标签
+    "imgIndex": 0,//图片再第几个标签里，一般为0
+    "isImgAttr": true,//是否通过标签属性获取封面
+    "hasImgUrlPrefix": true,//图片地址是否有前缀
+    "imgAttr": "data-original",//获取图的属性值（图片地址）
+    "isDescAttr": false,//是否通过标签属性获取描述 这里是false
+    "descAttr": "",//因为isDessAttr为false，因此这里无需赋值，直接取当前标签内容
+    "descCss": "span.tag",//描述标签
+    "descIndex": 0, //标签第几个,一般是0
+    "isKWInUrl": false,
+    "isWebPlay": false
+  },
+      "search": {
+        "isKWInUrl": false,
+        "isWebPlay": false,
+        "descAttr": "",
+        "descCss": "span.pic-text.text-right",
+        "descIndex": 0,
+        "hasImgUrlPrefix": true,
+        "hasUrlPrefix": false,
+        "imgAttr": "data-original",
+        "imgCss": "a",
+        "imgIndex": 0,
+        "isDescAttr": false,
+        "isImgAttr": true,
+        "isNameAttr": true,
+        "isUrlAttr": true,
+        "mainCss": "ul#searchList",
+        "mainListIndex": 0,
+        "nameAttr": "title",
+        "nameCss": "a",
+        "nameIndex": 0,
+        "searchListCss": "li",
+        "urlAttr": "href",
+        "urlCss": "a",
+        "urlIndex": 0
+      },
+      "video": {}
+    }
+  }
 }
 ]
 }
