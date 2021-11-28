@@ -4,7 +4,7 @@
       "name": "真不卡",
       "pic": "http://www.5577.com/up/2020-1/15782723308776503.jpg",
       "type": "webPlug",
-      "ads": "id=HMrichA",
+      "ads": "",
       "webUrl": "https://www.zhenbuka3.com",
       "webOpen": false,
       "click": true,
@@ -30,8 +30,8 @@
     "cateHtml": {},
     "html": {
       "episodes": {
-        "mainCss": "ul.stui-content__playlist.clearfix",//缩短抓取区域, 内容所在区域
-        "mainIndex": 1, //内容的第几个一般mainCss唯一 都是0 第几个
+        "mainCss": "div.stui-pannel_bd.col-pd.clearfix",//缩短抓取区域, 内容所在区域
+        "mainIndex": 0, //内容的第几个一般mainCss唯一 都是0 第几个
         "listCss": "ul > li",//区域内链接列表
         "listItemCss": "a",//抓取标签
         "listItemIndex": 0,//抓取哪个标签
